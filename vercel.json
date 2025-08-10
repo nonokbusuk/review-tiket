@@ -1,0 +1,17 @@
+{
+  "functions": {
+    "api/telegram-webhook.js": {
+      "maxDuration": 10
+    },
+    "api/admin-data.js": {
+      "maxDuration": 5
+    },
+    "api/create-order.js": {
+      "maxDuration": 10
+    }
+  },
+  "env": {
+    "TELEGRAM_BOT_TOKEN": "@telegram_bot_token",
+    "ADMIN_TELEGRAM_IDS": "@admin_telegram_ids"
+  }
+}
